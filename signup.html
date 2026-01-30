@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <title>Signup Page</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <!--header-->
+            <div class="form-header">
+                <h1>Get Started!</h1>
+                <p>Please enter your details</p>
+            </div>
+
+            <!--Input field-->
+            <div class="form-box">
+                <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="Fullname" class="input" placeholder="Enter Full Name" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="email" name="email" class="input" placeholder="Enter Email" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="text" name="password" class="input" placeholder="Enter Password" required>
+                </div>
+
+                <!-- Terms and Policies -->
+                <div class="terms-policies">
+                    <label for="remember"><input type="checkbox" required>I agree to the <a href="#">Terms</a> and <a href="#">Conditions</a> </label>
+                </div>
+
+                <!-- Login -->
+                <button class="login-btn">Create Account</button>
+
+                <!-- Sign up CTO-->
+                <div class="signup-link">
+                    <p>Already have an account? <a href="signup-form">Sign in</a> </p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
